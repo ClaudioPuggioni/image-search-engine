@@ -44,21 +44,7 @@ export default function UserInterface() {
           Search
         </button>
       </div>
-      <div id="imagesDiv">
-        {images ? (
-          images.map((ele) => <Modal imgInfo={ele} />)
-        ) : (
-          <>
-            <div className="tempImage"></div>
-            <div className="tempImage"></div>
-            <div className="tempImage"></div>
-            <div className="tempImage"></div>
-            <div className="tempImage"></div>
-            <div className="tempImage"></div>
-            <div className="tempImage"></div>
-          </>
-        )}
-      </div>
+      <div id="imagesDiv">{images ? images.map((ele) => <Modal imgInfo={ele} />) : null}</div>
     </div>
   );
 }
