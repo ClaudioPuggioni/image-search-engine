@@ -1,0 +1,24 @@
+#container {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#appHeader {
+  margin: 20px 0px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+#searchDiv {
+  margin-bottom: 27px;
+  display: flex;
+  gap: 10px;
+}
+#searchInput {
+  height: 27px;
+  width: 200px;
+  padding-left: 10px;
+}
